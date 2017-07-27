@@ -148,7 +148,7 @@ if (x) {
 } else {
 	console.log("False!");
 }
-// A: False
+// A: true
 
 
 // 22.
@@ -169,7 +169,7 @@ if (x) {
 } else {
 	console.log("False!");
 }
-// A: false
+// A: true
 
 
 // 24.
@@ -178,7 +178,7 @@ if (false) {
 } else {
 	console.log("False!");
 }
-// A: true
+// A: false
 
 
 // 25.
@@ -187,7 +187,7 @@ if (-5 && 5) {
 } else {
 	console.log("False!");
 }
-// A: false
+// A: true
 
 
 // 26.
@@ -205,7 +205,7 @@ if ({}) {
 } else {
 	console.log("False!");
 }
-// A: false
+// A: true
 
 
 // 28.
@@ -214,7 +214,7 @@ if ({ name: "Yehuda Katz" }) {
 } else {
 	console.log("False!");
 }
-// A: false
+// A: true
 
 
 // 29.
@@ -223,7 +223,7 @@ if (new Date()) {
 } else {
 	console.log("False!");
 }
-// A:false
+// A:true
 
 
 // 30.
